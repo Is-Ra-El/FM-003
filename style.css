@@ -1,0 +1,199 @@
+body{
+    font-family: Bai Jamjuree;
+    font-size: 20px;
+    
+    padding-top: 100px;
+    margin: 0%;
+
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+#p1{
+    position: relative;
+    top: -15px;
+}
+#p2{
+    position: relative;
+    top: -15px;
+}
+button{
+    color: white;
+    height: 45px;
+    width: 160px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+.button-div{
+    display: flex;
+    width: 400px; 
+    align-self: center;
+    justify-content: space-evenly;
+    
+}
+    
+.butt1{
+    background-color: green;
+    box-shadow: 0px 2px 10px green;
+    opacity: 0.7;
+}
+.butt1:hover{
+    opacity: 1;
+}
+
+.butt2{
+    background-color: blue;
+    box-shadow: 0px 2px 10px blue;
+    opacity: 0.7;
+}
+.butt2:hover{
+    opacity: 1;
+}
+.keep{
+    margin-top: 70px;
+}
+.computers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#c-img{
+    width: 700px;
+    height: 550px;
+
+}
+.access{
+    margin-top: 100px;
+}
+#p3{
+    position: relative;
+    top: -15px;
+}
+#img-devices{
+    align-self: center;
+    width: 750px;
+    height: 500px;
+}
+.super{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.logo-div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ios-mac{
+    margin-top: 100px;
+}
+.downbutts{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    
+    background-color: grey;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: left;
+
+} 
+.f-left{
+    width: 20%;
+    align-self: center;
+
+}
+
+.f-center1, .f-center2, .f-center3 {
+
+   width: 20%;
+    
+}
+.f-center3{
+    position: relative;
+    top: -20px;
+}
+
+
+.fr-logo{
+    margin-right: 20px;
+    
+}
+
+@media(min-width: 1440px){
+    #c-img{
+        position: relative;
+        left: -35%;
+    
+    }
+    
+    .img-text{
+        text-align: left;
+        position: relative;
+        left: -100px;
+        top: 50px;
+    }
+    .att{
+        flex: 100%;
+    
+    };
+}
+@media(max-width : 350px){
+    .logo-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logos{
+        margin-top: 50px;
+    }
+    body{
+
+        background-position: top;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-image: url(images/bg-header-mobile.png);
+        background-size: cover; 
+    }
+    .button-div{
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    footer{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .f-center1{
+        position: relative;
+        top: 15px;
+    }
+    .att{
+        margin-top: 40px;
+    }
+}
+.guides:hover{
+    color: blue;
+}
